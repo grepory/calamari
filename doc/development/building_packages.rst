@@ -69,5 +69,5 @@ Now copy the built products into your virtual machine.
 
   sudo dpkg -i ~/calamari-server*.deb
   sudo /opt/calamari/venv/bin/calamari-ctl initialize
-  sudo mkdir /opt/calamari/webapp/content/ubuntu
-  sudo tar zxf ~/calamari-repo.tar.gz -C /opt/calamari/webapp/content/ubuntu
+  sudo mkdir /opt/calamari/webapp/content/precise
+  sudo tar zxf ~/calamari-repo-precise.tar.gz -C /opt/calamari/webapp/content/precise
